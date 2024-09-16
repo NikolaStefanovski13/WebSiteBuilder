@@ -1,0 +1,21 @@
+CREATE TABLE websites (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    cover_image_url VARCHAR(255) NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    subtitle VARCHAR(255) NOT NULL,
+    description TEXT NOT NULL,
+    telephone VARCHAR(20) NOT NULL,
+    location VARCHAR(255) NOT NULL,
+    type ENUM('services', 'products') NOT NULL,
+    item1_url VARCHAR(255) NOT NULL,
+    item1_description TEXT NOT NULL,
+    item2_url VARCHAR(255) NOT NULL,
+    item2_description TEXT NOT NULL,
+    item3_url VARCHAR(255) NOT NULL,
+    item3_description TEXT NOT NULL,
+    contact_description TEXT NOT NULL,
+    linkedin VARCHAR(255) NOT NULL,
+    facebook VARCHAR(255) NOT NULL,
+    twitter VARCHAR(255) NOT NULL,
+    instagram VARCHAR(255) NOT NULL
+);
